@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#c5b2ce"
+	>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<androidx.cardview.widget.CardView
+			android:id="@+id/card1"
+			android:layout_width="350dp"
+			android:layout_height="150dp"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="80dp"
+			android:background="@color/black"
+			app:cardCornerRadius="30dp"
+			app:cardElevation="10dp">
+
+			<ImageView
+				android:id="@+id/imageView3"
+				android:layout_width="151dp"
+				android:layout_height="match_parent"
+
+				app:srcCompat="@drawable/fine" />
+
+			<TextView
+				android:id="@+id/textView"
+				android:layout_width="200dp"
+				android:layout_height="150dp"
+				android:layout_marginLeft="152sp"
+				android:layout_marginTop="0dp"
+				android:background="#f4f0ea"
+				android:text="Finest dining Area"
+				android:textAlignment="center"
+				android:textSize="40sp"
+				android:textStyle="bold" />
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:id="@+id/card2"
+			android:layout_width="350dp"
+			android:layout_height="150dp"
+			android:layout_below="@+id/card1"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="30dp"
+			android:background="@color/black"
+			app:cardCornerRadius="30dp"
+			app:cardElevation="10dp">
+
+
+			<ImageView
+				android:id="@+id/imageView5"
+				android:layout_width="152dp"
+				android:layout_height="match_parent"
+
+				app:srcCompat="@drawable/lounge" />
+
+			<TextView
+				android:id="@+id/textView1"
+				android:layout_width="200dp"
+				android:layout_height="150dp"
+				android:layout_marginLeft="152sp"
+				android:layout_marginTop="0dp"
+				android:background="#f4f0ea"
+				android:text="Private Lounge"
+				android:textAlignment="center"
+				android:padding="20dp"
+				android:textSize="40sp"
+				android:textStyle="bold" />
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:id="@+id/card3"
+			android:layout_width="350dp"
+			android:layout_height="150dp"
+			android:layout_below="@+id/card2"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="30dp"
+			app:cardCornerRadius="30dp"
+			app:cardElevation="10dp">
+
+			<ImageView
+				android:id="@+id/imageView6"
+				android:layout_width="150dp"
+				android:layout_height="150dp"
+
+				app:srcCompat="@drawable/golf" />
+
+			<TextView
+				android:id="@+id/textView2"
+				android:layout_width="200dp"
+				android:layout_height="150dp"
+				android:layout_marginLeft="152sp"
+				android:layout_marginTop="0dp"
+				android:background="#f4f0ea"
+				android:text="Golf Course"
+				android:textAlignment="center"
+				android:padding="20dp"
+				android:textSize="40sp"
+				android:textStyle="bold" />
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:id="@+id/card4"
+			android:layout_width="350dp"
+			android:layout_height="150dp"
+			android:layout_below="@+id/card3"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="30dp"
+			app:cardCornerRadius="30dp"
+			app:cardElevation="10dp">
+
+			<ImageView
+				android:id="@+id/imageView7"
+
+				android:layout_width="150dp"
+				android:layout_height="150dp"
+
+				app:srcCompat="@drawable/arc" />
+
+			<TextView
+				android:id="@+id/textView3"
+				android:layout_width="200dp"
+				android:layout_height="150dp"
+				android:layout_marginLeft="152sp"
+				android:layout_marginTop="0dp"
+				android:textAlignment="center"
+				android:padding="30dp"
+				android:background="#f4f0ea"
+				android:text="Arcade"
+				android:textSize="40sp"
+				android:textStyle="bold" />
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:id="@+id/card5"
+			android:layout_width="350dp"
+			android:layout_height="150dp"
+			android:layout_below="@+id/card4"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="30dp"
+			app:cardCornerRadius="30dp"
+			app:cardElevation="10dp">
+
+			<ImageView
+				android:id="@+id/imageView8"
+				android:layout_width="150dp"
+				android:layout_height="match_parent"
+
+				app:srcCompat="@drawable/roof" />
+
+			<TextView
+				android:id="@+id/textView4"
+				android:layout_width="200dp"
+				android:layout_height="150dp"
+				android:layout_marginLeft="152sp"
+				android:layout_marginTop="0dp"
+				android:background="#f4f0ea"
+				android:text="Rooftop View"
+				android:textAlignment="center"
+				android:padding="20dp"
+				android:textSize="40sp"
+				android:textStyle="bold" />
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:id="@+id/card6"
+			android:layout_width="350dp"
+			android:layout_height="150dp"
+			android:layout_below="@+id/card5"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="30dp"
+			app:cardCornerRadius="30dp"
+			app:cardElevation="10dp">
+
+			<ImageView
+				android:id="@+id/imageView9"
+				android:layout_width="154dp"
+				android:layout_height="match_parent"
+
+				app:srcCompat="@drawable/spa" />
+
+			<TextView
+				android:id="@+id/textView5"
+				android:layout_width="195dp"
+				android:layout_height="match_parent"
+				android:layout_marginLeft="152sp"
+				android:layout_marginTop="0dp"
+				android:background="#f4f0ea"
+				android:text="Spa Facility"
+				android:textSize="40sp"
+				android:textAlignment="center"
+				android:padding="20dp"
+				android:textStyle="bold" />
+		</androidx.cardview.widget.CardView>
+
+		<TextView
+			android:id="@+id/textView10"
+			android:layout_width="211dp"
+			android:layout_height="59dp"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentEnd="true"
+			android:layout_marginStart="108dp"
+			android:layout_marginLeft="20dp"
+			android:layout_marginTop="9dp"
+			android:layout_marginEnd="92dp"
+			android:text="Premium Features"
+			android:textSize="25sp"
+			android:textStyle="bold"
+			android:textAlignment="center"/>
+	</RelativeLayout>
+</ScrollView>
